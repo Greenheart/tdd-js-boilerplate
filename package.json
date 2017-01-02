@@ -1,0 +1,16 @@
+{
+  "name": "tdd-js-boilerplate",
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "tap-spec": "^4.1.1",
+    "tape-runner": "^0.3.0"
+  },
+  "scripts": {
+    "test": "node ./scripts/run-all-tests.js | ./node_modules/.bin/tap-spec",
+    "tdd": "./node_modules/.bin/nodemon -x 'npm test'"
+  },
+  "author": "Samuel Plumppu"
+}

@@ -4,7 +4,7 @@ A minimal boilerplate for TDD with JS.
 ## Built with
 - Assertion library: `tape`
 - Test runner: `npm scripts` + `tape-watch`
-- Output formatting: `tap-spec`
+- Output formatting: `tap-diff`
 
 ## Usage
 - `npm test [files]` - Run specific test(s) once. **Default: `test/*`**

@@ -9,6 +9,6 @@ else
 fi
 
 # watch for changes and continually run tests
-./node_modules/.bin/tape-watch $FILES -p tap-spec
+./node_modules/.bin/tape-watch $FILES -p tap-diff
 
 exit 0

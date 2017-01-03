@@ -7,8 +7,8 @@ A minimal boilerplate for TDD with JS.
 - Output formatting: `tap-spec`
 
 ## Usage
-- `npm test [files]` - Run specific test(s) once. **Default: all**
-- `npm run tdd [files]` -  Watch files using `` and run specific test(s) continually. **Default: all**
+- `npm test [files]` - Run specific test(s) once. **Default: `test/*`**
+- `npm run tdd [files]` -  Watch files using `tape-watch` and run specific test(s) continually. **Default: `test/*`**
 
 `[files]` is a string pattern matching files to be tested. E.g. `test/*.test.js`
 

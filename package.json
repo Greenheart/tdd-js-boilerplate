@@ -4,13 +4,13 @@
   "main": "",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^1.11.0",
     "tap-spec": "^4.1.1",
-    "tape-runner": "^0.3.0"
+    "tape": "^4.6.3",
+    "tape-watch": "^2.2.4"
   },
   "scripts": {
-    "test": "node ./scripts/run-all-tests.js | ./node_modules/.bin/tap-spec",
-    "tdd": "./node_modules/.bin/nodemon -x 'npm test'"
+    "test": "bash scripts/run-tests-once.sh",
+    "tdd": "bash scripts/run-tests.sh"
   },
   "author": "Samuel Plumppu"
 }

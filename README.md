@@ -1,8 +1,18 @@
 # tdd-js-boilerplate
 A minimal boilerplate for TDD with JS.
 
+## Built with
+- Assertion library: `tape`
+- Test runner: `npm scripts` + `tape-watch`
+- Output formatting: `tap-spec`
+
 ## Usage
-- `npm test` - Run all tests once.
-- `npm run tdd` -  Watch files using `nodemon` and run all tests continually.
+- `npm test [files]` - Run specific test(s) once. **Default: all**
+- `npm run tdd [files]` -  Watch files using `` and run specific test(s) continually. **Default: all**
+
+`[files]` is a string pattern matching files to be tested. E.g. `test/*.test.js`
 
 For an example, check `example.js` and `test/example.test.js`.
+
+## License
+[MIT](LICENSE)

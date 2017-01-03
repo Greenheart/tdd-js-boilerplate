@@ -1,5 +1,5 @@
 const test = require('tape')
-const add = require('../example')
+const add = require('../example').add
 
 test('add()', t => {
   t.ok(typeof add(1, 2) === 'number', 'should return a number')
